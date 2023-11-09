@@ -1,0 +1,79 @@
+.topbar{
+    background-color: #2D6B68;
+    color:#D7D6DD;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.topbar button, .topbar span, .topbar a{
+  text-decoration: none;
+ /* font-family: 'Anton', sans-serif;*/
+ font-family: Open Sans;
+  text-transform: uppercase;
+  font-weight: 400;
+  color:#E5DE8D;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.topbar a{
+  font-weight: bold;
+}
+
+.drop div{
+  background-color: #3A2D58;
+}
+
+.topbar button:hover, .topbar span:hover, .topbar a:hover{
+    cursor: pointer;
+    color:#FFC07F;
+    text-decoration: none;
+}
+
+
+  .ctglink, .ctglink a{
+    color: #CCAD8F;
+    text-decoration: none;
+    background-color: transparent!important;
+    text-transform: uppercase;
+  }
+
+  .ctglink:focus-visible{
+    outline: none;
+  }
+
+  .ctglink:hover, .ctglink a:hover, .ctglink a:focus{
+    color: #FFC07F!important;
+  }
+
+  /*.ctglink a:hover, .ctglink a:focus, .ctglink a:active{
+    color: #FFC07F!important;
+  }*/
+
+  .actionsSection{
+    background-color: #D3C4E3;
+    justify-content: space-evenly;
+}
+
+.actionLink{
+    text-decoration: none;
+    color: #262626;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-inline: .5rem;
+}
+
+.actionLink:hover{
+    color: #9E0059;
+}
+
+
+
+.bottomDiv{
+  width: 100%;
+  background-color: #D3C4E3;
+}
+
+.bottomDiv img{
+  max-height: 200px;
+  object-fit: scale-down;
+  max-width: 100%;
+}

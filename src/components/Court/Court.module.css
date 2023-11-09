@@ -1,0 +1,20 @@
+.court{
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.playerDiv{
+    text-align: center;
+    background: #3A2D58;
+    color: #E5DE8D;
+    width: fit-content;
+    margin-inline: auto;
+    font-weight: 400;
+    font-family: Open Sans;
+    line-height: 130%; /* 39px */
+    font-size: large;
+}
+
+.rotate{
+     transform: rotateY(180deg);
+}

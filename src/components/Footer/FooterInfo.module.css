@@ -1,0 +1,96 @@
+.footer{
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    background-color: #2D6B68;
+    font-family: Open Sans;
+}
+
+.description,.contact,.footerlinks li button, .footerlinks li a{
+    color: #EFE6DD;
+    font-family: Open Sans;
+    font-size: large;
+}
+
+.copyright{
+  color:#E5DE8D;
+  font-size: large;
+}
+
+.description{
+  min-width: 200px;
+}
+
+.about{
+  max-width: 600px;
+  text-align: left;
+}
+
+.about p{
+  text-align: justify;
+}
+
+.contact{
+    max-width: fit-content;
+}
+
+.contact h6{
+    margin-left: .75rem;
+}
+
+.about{
+  margin-inline: 1rem;
+}
+
+.footerlinks
+{
+  padding-left:0;
+  list-style:none;
+  text-align: left;
+}
+
+.copyright
+{
+  /*border-top: #D7D6DD 1px solid;*/
+  text-align: center;
+}
+
+.footerlinks a, .footerlinks button{
+  border-color: transparent;
+}
+
+.btnNone{
+    cursor: initial!important;
+    pointer-events: none;
+}
+
+.btnNone:hover{
+    background-color: transparent!important;
+    border-color: transparent!important;
+    color: #262626!important;
+}
+
+.about h4, .contact h4{
+  color:#E5DE8D;
+  font-family: Open Sans;
+  -webkit-text-stroke: 0.2px black;
+}
+
+.about p, .contact ul, .copyright{
+  font-family: Open Sans;
+}
+
+.line{
+  height: 15px;
+  background-color: #2D6B68;
+  border-top: 5px solid #7364BF;
+  border-bottom: 5px solid #7364BF;
+  width: 100%;
+}
+
+@media (max-width:600px)
+{
+  .aboutContact{
+    flex-direction: column;
+  }
+}

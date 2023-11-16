@@ -115,7 +115,7 @@ const NewMatch = (props) => {
             </div>
             
 
-            <Button type="submit"  size="lg" variant="warning" className={'mb-2 ' + styles.button23}>Submit</Button>
+            <Button type="submit"  size="lg" variant="warning" className={'mb-2 ' + styles.button23}>Start</Button>
            </Form> 
         </div>
         </>

@@ -241,8 +241,7 @@ const Board = (props) =>{
     }
 
     const endMatch = () =>{
-        console.log('elapsed time')
-        console.log(elapsedTimeRef.current.innerHTML)
+
         let winner
         if(totalSets.player1 > totalSets.player2){
             winner = 'player1'

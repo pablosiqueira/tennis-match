@@ -14,6 +14,7 @@ const TopBar = (props) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="https://olympics.com/en/news/tennis-rules-regulations-how-to-play-basics" target='_blank'>Rules</Nav.Link>
+            <Nav.Link href="https://www.figma.com/file/WwWddB3g5wvzFIMfpuTyn5/Tennis-Score-Board?type=design&node-id=2%3A4&mode=design&t=e8GC5S20uG3azvS0-1" target='_blank'>Original Design</Nav.Link>
             <NavDropdown title="More Projects" id="basic-nav-dropdown" className={classes.drop}>
               <NavDropdown.Item href="https://jersey-database.vercel.app/" target='_blank'>Jersey Database</NavDropdown.Item>
               <NavDropdown.Item href="https://sports-store-nextjs.vercel.app/" target='_blank'>Sports Store</NavDropdown.Item>

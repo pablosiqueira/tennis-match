@@ -6,8 +6,7 @@
 
 .topbar button, .topbar span, .topbar a{
   text-decoration: none;
- /* font-family: 'Anton', sans-serif;*/
- font-family: Open Sans;
+  font-family: Open Sans;
   text-transform: uppercase;
   font-weight: 400;
   color:#E5DE8D;
@@ -22,58 +21,8 @@
   background-color: #3A2D58;
 }
 
-.topbar button:hover, .topbar span:hover, .topbar a:hover{
+.topbar button:hover, .topbar span:hover, .topbar a:hover, .topbar a:active, .topbar a:focus{
     cursor: pointer;
-    color:#FFC07F;
+    color: #ffc07f!important;;
     text-decoration: none;
-}
-
-
-  .ctglink, .ctglink a{
-    color: #CCAD8F;
-    text-decoration: none;
-    background-color: transparent!important;
-    text-transform: uppercase;
-  }
-
-  .ctglink:focus-visible{
-    outline: none;
-  }
-
-  .ctglink:hover, .ctglink a:hover, .ctglink a:focus{
-    color: #FFC07F!important;
-  }
-
-  /*.ctglink a:hover, .ctglink a:focus, .ctglink a:active{
-    color: #FFC07F!important;
-  }*/
-
-  .actionsSection{
-    background-color: #D3C4E3;
-    justify-content: space-evenly;
-}
-
-.actionLink{
-    text-decoration: none;
-    color: #262626;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-inline: .5rem;
-}
-
-.actionLink:hover{
-    color: #9E0059;
-}
-
-
-
-.bottomDiv{
-  width: 100%;
-  background-color: #D3C4E3;
-}
-
-.bottomDiv img{
-  max-height: 200px;
-  object-fit: scale-down;
-  max-width: 100%;
 }
